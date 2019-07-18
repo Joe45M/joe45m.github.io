@@ -1,0 +1,86 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background: linear-gradient(150deg, #3eff68 40%, #38a6e6);
+  min-height: 100vh;
+}
+
+input {
+  text-align: center;
+}
+
+.content-container-clear {
+  max-width: 1200px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+@media (max-width: 1300px) {
+  .content-container-clear {
+    max-width: 90vw;
+  }
+}
+
+.content-container {
+  position: relative;
+  margin-bottom: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #ffffff;
+  margin-bottom: 15px !important;
+  max-width: 1200px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.29);
+          box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.29);
+  border-radius: 9px;
+}
+
+@media (max-width: 1300px) {
+  .content-container {
+    max-width: 90vw;
+  }
+}
+
+.content-container a {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3eff68), to(#38e6ce));
+  background: linear-gradient(#3eff68, #38e6ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 150%;
+  margin-bottom: 0;
+}
+
+.content-container p {
+  margin-top: 0;
+}
+
+p,
+label {
+  color: #525252;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 250%;
+  color: #ffffff;
+  margin: 10px 0;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media (max-width: 569px) {
+  h1 {
+    font-size: 220%;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
